@@ -6,6 +6,14 @@
 import React from "react"
 import ReactDOM from "react-dom"
 ReactDOM.render(
-    <h1>My favorite food </h1>,
+    <div>
+    <h1>My favorite foods </h1>
+    <ul>  
+        <li> Apple </li>
+        <li> Milk </li>
+        <li> Sweets </li>
+    </ul>
+    </div>,
     document.getElementById("root"));
+    
 
